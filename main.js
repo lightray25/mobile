@@ -1,0 +1,3 @@
+funktion constructor {
+  this.firstname
+}
