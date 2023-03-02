@@ -1,5 +1,5 @@
 button {
-  background-color: rgb(37, 165, 105);
+  background-color: rgb(43, 207, 158);
   color: white;
   border: none;
   height: 2.2rem;
@@ -13,4 +13,16 @@ button {
 
 #lname {
   margin-left: -15px;
+}
+
+.iname {
+  height: 40px;
+}
+
+#lastname {
+  margin-top: -20px;
+}
+
+#hRegist{
+  padding-left: 15px;
 }
