@@ -6,3 +6,7 @@ button {
   width: 4rem;
   float: right;
 }
+
+#lname {
+  margin-left: -15px;
+}
