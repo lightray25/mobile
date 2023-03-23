@@ -6,30 +6,3 @@ button {
   width: 4rem;
   float: right;
 }
-
-#subb {
-  margin-top: 10px;
-}
-
-#lname {
-  margin-left: -15px;
-}
-
-.iname {
-  height: 40px;
-}
-
-#lastname {
-  margin-top: -20px;
-}
-
-#hRegist {
-  padding-left: 15px;
-}
-
-.container {
-  margin-top: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
