@@ -1,40 +1,31 @@
 <!DOCTYPE html>
+
 <head>
   <meta charset="utf-8">
   <title>Mobile</title>
   <script src="mobile.js"></script>
-  <link rel="stylesheet" href="main.css"> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Register:</h1>
-    <div class="row">
-      <div class="col-12">
-        <label id="lname">Name:</label>
+  <div class="d-flex flex-column justify-content-center align-items-center vh-100">
+    <div class="card p-3">
+      <h2>Register:</h2>
+      <div class="form-group">
+        <label for="nummer">Input 1</label>
+        <input type="number" class="form-control" id="nummer" placeholder="Telefonnummer...">
       </div>
-      <div>
-        <div class="row">
-          <div class="col-2">
-            <input id=nummer type="number" placeholder="Telefonnummer...">
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-2">
-            <input id=mail type="text" placeholder="E-Mail...">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-2">
-            <div id=output></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <button id="button" type="submit">Next</button>
-          </div>
-        </div>
+      <div class="form-group">
+        <label for="mail">Input 2</label>
+        <input type="text" class="form-control" id="mail" placeholder="E-Mail...">
       </div>
+
+      <div id=output></div>
+
+      <button id="button" class="btn btn-outline-primary" type="submit">Next</button>
+
     </div>
+  </div>
 </body>
